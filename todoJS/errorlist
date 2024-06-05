@@ -1,0 +1,30 @@
+발견되는 문제
+
+오늘 날짜를 연속으로 클릭하면 저장된 데이터가 계속 중복되어 출력됨
+
+check한 list가 초기화되어 나타남
+todolist count 횟수를 0으로 만들었다가 다시 나타내게 만들고 싶은데 쉽지 않음
+
+리스트에 style로 넣는방법! 
+오브젝트를 사용한다!
+문제점: 코드 처음부터 처음 짜야함
+와! 신난다! 아 왜 생각을 못했지 
+
+생각을 해보자
+
+todoList = [{content: ,
+checked: false}]
+
+checked: true일시 complete 수 증가, css 주기
+
+complete 수 - true인 값을 찾아서 개수를 세는 식으로 진행? 
+
+다른 날짜로 이동시
+anotherDateList에 foreach로 집어넣고 todoList초기화
+
+오늘 클릭시 
+todoList에 anotherDateList 값 foreach로 다시 집어넣은 뒤 화면 구성하기
+
+뭘 고쳐야하지?
+다. 
+

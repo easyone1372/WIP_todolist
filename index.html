@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+
+    <link rel="stylesheet" href="todoList/todoStyle/index.css" />
+    <link rel="stylesheet" href="todoList/todoStyle/root.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" src="todoList/todoJS/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="emptyBox"></div>
+      <div class="dateScrollBox">
+        <!-- <div class="dateBox">
+          <span class="dateYoilBox"></span>
+          <div class="dateNumBox"></div>
+        </div> -->
+      </div>
+      <div class="listContainer">
+        <div class="listSelectBox">
+          <div class="selectButton listAllView">
+            <span class="listAmount">0</span>
+            <span>All Tasks</span>
+          </div>
+          <div class="selectButton listCompleteView">
+            <span class="completeAmount">0</span>
+            <span>Complete</span>
+          </div>
+        </div>
+        <div class="listBox">
+          <ul class="listViewBox">
+            
+          </div>
+          <div class="listAddBox">
+            <input class="inputText" type="text" />
+            <span class="floatingBtn"><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
